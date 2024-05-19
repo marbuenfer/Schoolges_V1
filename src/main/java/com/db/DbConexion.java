@@ -15,8 +15,10 @@ public class DbConexion {
 			// conn =
 			// DriverManager.getConnection("jdbc:mysql://localhost:3306/db_schoolges_v1",	 "root", "123456");
 			
-			 DriverManager.getConnection("jdbc:mysql:https://appschoolges.azurewebsites.net/db_schoolges_v1", "iniciosesionschoolgesv1", "cabum-50");
-			
+			// DriverManager.getConnection("jdbc:mysql:https://appschoolges.azurewebsites.net/db_schoolges_v1", "iniciosesionschoolgesv1", "cabum-50");
+			 DriverManager.getConnection("jdbc:sqlserver://schoolgesv1.database.windows.net:1433;database=db_schoolges_v1;user=iniciosesionschoolgesv1@schoolgesv1;password={cabum50};encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30");
+
+			// jdbc:sqlserver://schoolgesv1.database.windows.net:1433;database=db_schoolges_v1;user=iniciosesionschoolgesv1@schoolgesv1;password={your_password_here};encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
 			//para conexiones internas
 			// conn =
 			// DriverManager.getConnection("jdbc:mysql://10.100.62.1:3306/db_schoolges_v1",
