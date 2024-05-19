@@ -15,7 +15,7 @@ public class DbConexion {
 			// conn =
 			// DriverManager.getConnection("jdbc:mysql://localhost:3306/db_schoolges_v1",	 "root", "123456");
 			
-			 DriverManager.getConnection("jdbc:mysql:https://appschoolges.azurewebsites.net/db_schoolges_v1",	 "iniciosesionschoolgesv1", "cabum-50");
+			 DriverManager.getConnection("jdbc:mysql:https://appschoolges.azurewebsites.net/db_schoolges_v1", "iniciosesionschoolgesv1", "cabum-50");
 			
 			//para conexiones internas
 			// conn =
