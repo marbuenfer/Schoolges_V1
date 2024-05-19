@@ -1,0 +1,158 @@
+@charset "UTF-8";
+/* Estilo para centrar el título */
+h2 {
+    text-align: center;
+}
+
+/* Estilo para las imágenes de perfil */
+.sidebar .nav-item .nav-link .img-profile,
+.topbar .nav-item .nav-link .img-profile {
+    height: 2rem;
+    width: 2rem;
+}
+
+/* Estilo para la barra superior */
+.topbar {
+    height: 4.375rem;
+}
+
+/* Estilos para las filas de la tabla */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f5f5f5;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+/* Estilo para celdas de éxito */
+.table-success tbody td {
+    background-color: #d4edda;
+}
+
+/* Estilo para celdas de peligro */
+.table-danger tbody td {
+    background-color: #f8d7da;
+}
+
+/* Estilo para indicador de estado activo verde */
+.activo-verde {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* Estilo para indicador de estado activo rojo */
+.activo-rojo {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* Nuevos estilos para resaltar la fila seleccionada */
+.table tbody tr.selected {
+    background-color: #c8e6c9;
+}
+
+/* Nuevos estilos para los botones de acción */
+.accion-buttons {
+    display: none;
+    margin-bottom: 10px;
+}
+
+.boton-accion {
+    margin-right: 10px;
+}
+
+/* Estilos para el modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Estilos para los botones de exportación */
+.btn-exportar-excel {
+    background-color: #198754 !important;
+    color: white !important;
+}
+
+.btn-exportar-pdf {
+    background-color: #FF4500 !important;
+    color: white !important;
+}
+
+.btn-exportar-imprimir {
+    background-color: #4682B4 !important;
+    color: white !important;
+}
+
+.btn-exportar-csv {
+    background-color: #20B2AA !important;
+    color: white !important;
+}
+
+/* Estilos para los íconos de estado activo */
+.activo-rojo::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.activo-verde::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* Ocultar elemento */
+#tipoRolUsu_id {
+    display: none;
+}
+.custom-selected {
+    background-color: #f8f9fa; /* Cambia este color al color deseado */
+    color: #000; /* Cambia este color al color deseado */
+}
+ 
+ .disabled-link {
+    pointer-events: none; /* Evita que el enlace sea cliclable */
+    opacity: 0.5; /* Atenua el color del enlace */
+}
+
+
